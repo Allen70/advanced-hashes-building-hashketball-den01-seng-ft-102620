@@ -59,11 +59,11 @@ def game_hash
        
      count2 += 1  
     
-     binding.pry
+     
     end
     count +=1
   end
 
-binding.pry
+
 hash
 end
