@@ -50,7 +50,7 @@ def game_hash
         while count3 < symbolarray.length do
         if !hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] 
           hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] = statsarray[count2][count][count3]
-          
+          binding.pry
         end
         count3 +=1
        end 
