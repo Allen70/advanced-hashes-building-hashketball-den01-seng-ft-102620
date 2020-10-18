@@ -52,6 +52,7 @@ def game_hash
           hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] = statsarray[count2][count][count3]
           
         end
+        
        end count3 +=1
        end
        
