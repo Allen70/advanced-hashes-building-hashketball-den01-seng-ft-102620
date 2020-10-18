@@ -43,6 +43,7 @@ def game_hash
       count2 = 0
     end
      while count2 < players_array[count].length do
+       
       if !hash[top_level[count]][top_level_keys[2]][count2] 
          hash[top_level[count]][top_level_keys[2]][count2] = {}
          count3 = 0
