@@ -45,15 +45,15 @@ def game_hash
      while count2 < players_array[count].length do
       if !hash[top_level[count]][top_level_keys[2]][count2] 
          hash[top_level[count]][top_level_keys[2]][count2] = {}
-         
+         c
         
         while count3 < symbolarray.length do
         if !hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] 
           hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] = statsarray[count2][count][count3]
           
         end
-        
-       end count3 +=1
+        count3 +=1
+       end 
        end
        
      count2 += 1  
