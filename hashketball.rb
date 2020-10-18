@@ -64,6 +64,6 @@ def game_hash
     count +=1
   end
 
-
+binding.pry
 hash
 end
