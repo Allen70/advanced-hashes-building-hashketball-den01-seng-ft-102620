@@ -36,7 +36,7 @@ def game_hash
   hash[top_level[0]][top_level_keys[2]]= []
 #  hash[top_level[0]][top_level_keys[2]][0] = {}
 #  hash[top_level[1]][top_level_keys[2]][0] = {}
-  count3 = 0
+  
   
   while count < top_level.length do
     if count > 0
@@ -45,7 +45,7 @@ def game_hash
      while count2 < players_array[count].length do
       if !hash[top_level[count]][top_level_keys[2]][count2] 
          hash[top_level[count]][top_level_keys[2]][count2] = {}
-         c
+         count3 = 0
         
         while count3 < symbolarray.length do
         if !hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] 
