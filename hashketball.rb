@@ -49,8 +49,8 @@ def game_hash
          count3 = 0
         
         while count3 < symbolarray.length do
-        if !hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] 
-          hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count2]] = statsarray[count2][count][count3]
+        if !hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count3]] 
+          hash[top_level[count]][top_level_keys[2]][count2][symbolarray[count3]] = statsarray[count2][count][count3]
           binding.pry
         end
         count3 +=1
